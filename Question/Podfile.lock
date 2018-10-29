@@ -1,0 +1,15 @@
+PODS:
+  - Kingfisher (3.10.3)
+  - MTPopup (1.0.2)
+
+DEPENDENCIES:
+  - Kingfisher (~> 3.0)
+  - MTPopup
+
+SPEC CHECKSUMS:
+  Kingfisher: a0ac82dc5bcf0388dd74b294cf2cc13730c63436
+  MTPopup: 7fd0259ba4688aaa65caab223bbb88a4907516f3
+
+PODFILE CHECKSUM: 58402fbaccdd8d1471197e5be4d5a56cae9780c5
+
+COCOAPODS: 1.2.1

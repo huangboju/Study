@@ -1,0 +1,590 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BE09C1171F3206880023D806 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BE09C1161F3206880023D806 /* main.m */; };
+		BE09C11A1F3206880023D806 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BE09C1191F3206880023D806 /* AppDelegate.m */; };
+		BE09C11D1F3206880023D806 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BE09C11C1F3206880023D806 /* ViewController.m */; };
+		BE09C1201F3206880023D806 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE09C11E1F3206880023D806 /* Main.storyboard */; };
+		BE09C1221F3206880023D806 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE09C1211F3206880023D806 /* Assets.xcassets */; };
+		BE09C1251F3206880023D806 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE09C1231F3206880023D806 /* LaunchScreen.storyboard */; };
+		BE09C1301F3206880023D806 /* AVPlayerCacheSupportStudyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BE09C12F1F3206880023D806 /* AVPlayerCacheSupportStudyTests.m */; };
+		BE09C13B1F3206880023D806 /* AVPlayerCacheSupportStudyUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = BE09C13A1F3206880023D806 /* AVPlayerCacheSupportStudyUITests.m */; };
+		BE09C1581F3206A40023D806 /* AVPlayerItem+MCCacheSupport.m in Sources */ = {isa = PBXBuildFile; fileRef = BE09C14A1F3206A40023D806 /* AVPlayerItem+MCCacheSupport.m */; };
+		BE09C1591F3206A40023D806 /* MCAVPlayerItemCacheFile.m in Sources */ = {isa = PBXBuildFile; fileRef = BE09C14D1F3206A40023D806 /* MCAVPlayerItemCacheFile.m */; };
+		BE09C15A1F3206A40023D806 /* MCAVPlayerItemCacheLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = BE09C14F1F3206A40023D806 /* MCAVPlayerItemCacheLoader.m */; };
+		BE09C15B1F3206A40023D806 /* MCAVPlayerItemCacheTask.m in Sources */ = {isa = PBXBuildFile; fileRef = BE09C1511F3206A40023D806 /* MCAVPlayerItemCacheTask.m */; };
+		BE09C15C1F3206A40023D806 /* MCAVPlayerItemLocalCacheTask.m in Sources */ = {isa = PBXBuildFile; fileRef = BE09C1531F3206A40023D806 /* MCAVPlayerItemLocalCacheTask.m */; };
+		BE09C15D1F3206A40023D806 /* MCAVPlayerItemRemoteCacheTask.m in Sources */ = {isa = PBXBuildFile; fileRef = BE09C1551F3206A40023D806 /* MCAVPlayerItemRemoteCacheTask.m */; };
+		BE09C15E1F3206A40023D806 /* MCCacheSupportUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = BE09C1571F3206A40023D806 /* MCCacheSupportUtils.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BE09C12C1F3206880023D806 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BE09C10A1F3206880023D806 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BE09C1111F3206880023D806;
+			remoteInfo = AVPlayerCacheSupportStudy;
+		};
+		BE09C1371F3206880023D806 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BE09C10A1F3206880023D806 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BE09C1111F3206880023D806;
+			remoteInfo = AVPlayerCacheSupportStudy;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BE09C1121F3206880023D806 /* AVPlayerCacheSupportStudy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AVPlayerCacheSupportStudy.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE09C1161F3206880023D806 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BE09C1181F3206880023D806 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BE09C1191F3206880023D806 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BE09C11B1F3206880023D806 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		BE09C11C1F3206880023D806 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		BE09C11F1F3206880023D806 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BE09C1211F3206880023D806 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BE09C1241F3206880023D806 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BE09C1261F3206880023D806 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BE09C12B1F3206880023D806 /* AVPlayerCacheSupportStudyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AVPlayerCacheSupportStudyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE09C12F1F3206880023D806 /* AVPlayerCacheSupportStudyTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AVPlayerCacheSupportStudyTests.m; sourceTree = "<group>"; };
+		BE09C1311F3206880023D806 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BE09C1361F3206880023D806 /* AVPlayerCacheSupportStudyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AVPlayerCacheSupportStudyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE09C13A1F3206880023D806 /* AVPlayerCacheSupportStudyUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AVPlayerCacheSupportStudyUITests.m; sourceTree = "<group>"; };
+		BE09C13C1F3206880023D806 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BE09C1491F3206A40023D806 /* AVPlayerItem+MCCacheSupport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "AVPlayerItem+MCCacheSupport.h"; sourceTree = "<group>"; };
+		BE09C14A1F3206A40023D806 /* AVPlayerItem+MCCacheSupport.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "AVPlayerItem+MCCacheSupport.m"; sourceTree = "<group>"; };
+		BE09C14C1F3206A40023D806 /* MCAVPlayerItemCacheFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCAVPlayerItemCacheFile.h; sourceTree = "<group>"; };
+		BE09C14D1F3206A40023D806 /* MCAVPlayerItemCacheFile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCAVPlayerItemCacheFile.m; sourceTree = "<group>"; };
+		BE09C14E1F3206A40023D806 /* MCAVPlayerItemCacheLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCAVPlayerItemCacheLoader.h; sourceTree = "<group>"; };
+		BE09C14F1F3206A40023D806 /* MCAVPlayerItemCacheLoader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCAVPlayerItemCacheLoader.m; sourceTree = "<group>"; };
+		BE09C1501F3206A40023D806 /* MCAVPlayerItemCacheTask.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCAVPlayerItemCacheTask.h; sourceTree = "<group>"; };
+		BE09C1511F3206A40023D806 /* MCAVPlayerItemCacheTask.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCAVPlayerItemCacheTask.m; sourceTree = "<group>"; };
+		BE09C1521F3206A40023D806 /* MCAVPlayerItemLocalCacheTask.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCAVPlayerItemLocalCacheTask.h; sourceTree = "<group>"; };
+		BE09C1531F3206A40023D806 /* MCAVPlayerItemLocalCacheTask.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCAVPlayerItemLocalCacheTask.m; sourceTree = "<group>"; };
+		BE09C1541F3206A40023D806 /* MCAVPlayerItemRemoteCacheTask.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCAVPlayerItemRemoteCacheTask.h; sourceTree = "<group>"; };
+		BE09C1551F3206A40023D806 /* MCAVPlayerItemRemoteCacheTask.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCAVPlayerItemRemoteCacheTask.m; sourceTree = "<group>"; };
+		BE09C1561F3206A40023D806 /* MCCacheSupportUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCCacheSupportUtils.h; sourceTree = "<group>"; };
+		BE09C1571F3206A40023D806 /* MCCacheSupportUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCCacheSupportUtils.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BE09C10F1F3206880023D806 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE09C1281F3206880023D806 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE09C1331F3206880023D806 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BE09C1091F3206880023D806 = {
+			isa = PBXGroup;
+			children = (
+				BE09C1141F3206880023D806 /* AVPlayerCacheSupportStudy */,
+				BE09C12E1F3206880023D806 /* AVPlayerCacheSupportStudyTests */,
+				BE09C1391F3206880023D806 /* AVPlayerCacheSupportStudyUITests */,
+				BE09C1131F3206880023D806 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BE09C1131F3206880023D806 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BE09C1121F3206880023D806 /* AVPlayerCacheSupportStudy.app */,
+				BE09C12B1F3206880023D806 /* AVPlayerCacheSupportStudyTests.xctest */,
+				BE09C1361F3206880023D806 /* AVPlayerCacheSupportStudyUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BE09C1141F3206880023D806 /* AVPlayerCacheSupportStudy */ = {
+			isa = PBXGroup;
+			children = (
+				BE09C1481F3206A40023D806 /* AVPlayerCacheSupport */,
+				BE09C1181F3206880023D806 /* AppDelegate.h */,
+				BE09C1191F3206880023D806 /* AppDelegate.m */,
+				BE09C11B1F3206880023D806 /* ViewController.h */,
+				BE09C11C1F3206880023D806 /* ViewController.m */,
+				BE09C11E1F3206880023D806 /* Main.storyboard */,
+				BE09C1211F3206880023D806 /* Assets.xcassets */,
+				BE09C1231F3206880023D806 /* LaunchScreen.storyboard */,
+				BE09C1261F3206880023D806 /* Info.plist */,
+				BE09C1151F3206880023D806 /* Supporting Files */,
+			);
+			path = AVPlayerCacheSupportStudy;
+			sourceTree = "<group>";
+		};
+		BE09C1151F3206880023D806 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BE09C1161F3206880023D806 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BE09C12E1F3206880023D806 /* AVPlayerCacheSupportStudyTests */ = {
+			isa = PBXGroup;
+			children = (
+				BE09C12F1F3206880023D806 /* AVPlayerCacheSupportStudyTests.m */,
+				BE09C1311F3206880023D806 /* Info.plist */,
+			);
+			path = AVPlayerCacheSupportStudyTests;
+			sourceTree = "<group>";
+		};
+		BE09C1391F3206880023D806 /* AVPlayerCacheSupportStudyUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BE09C13A1F3206880023D806 /* AVPlayerCacheSupportStudyUITests.m */,
+				BE09C13C1F3206880023D806 /* Info.plist */,
+			);
+			path = AVPlayerCacheSupportStudyUITests;
+			sourceTree = "<group>";
+		};
+		BE09C1481F3206A40023D806 /* AVPlayerCacheSupport */ = {
+			isa = PBXGroup;
+			children = (
+				BE09C1491F3206A40023D806 /* AVPlayerItem+MCCacheSupport.h */,
+				BE09C14A1F3206A40023D806 /* AVPlayerItem+MCCacheSupport.m */,
+				BE09C14B1F3206A40023D806 /* Classes */,
+			);
+			path = AVPlayerCacheSupport;
+			sourceTree = "<group>";
+		};
+		BE09C14B1F3206A40023D806 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				BE09C14C1F3206A40023D806 /* MCAVPlayerItemCacheFile.h */,
+				BE09C14D1F3206A40023D806 /* MCAVPlayerItemCacheFile.m */,
+				BE09C14E1F3206A40023D806 /* MCAVPlayerItemCacheLoader.h */,
+				BE09C14F1F3206A40023D806 /* MCAVPlayerItemCacheLoader.m */,
+				BE09C1501F3206A40023D806 /* MCAVPlayerItemCacheTask.h */,
+				BE09C1511F3206A40023D806 /* MCAVPlayerItemCacheTask.m */,
+				BE09C1521F3206A40023D806 /* MCAVPlayerItemLocalCacheTask.h */,
+				BE09C1531F3206A40023D806 /* MCAVPlayerItemLocalCacheTask.m */,
+				BE09C1541F3206A40023D806 /* MCAVPlayerItemRemoteCacheTask.h */,
+				BE09C1551F3206A40023D806 /* MCAVPlayerItemRemoteCacheTask.m */,
+				BE09C1561F3206A40023D806 /* MCCacheSupportUtils.h */,
+				BE09C1571F3206A40023D806 /* MCCacheSupportUtils.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BE09C1111F3206880023D806 /* AVPlayerCacheSupportStudy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BE09C13F1F3206880023D806 /* Build configuration list for PBXNativeTarget "AVPlayerCacheSupportStudy" */;
+			buildPhases = (
+				BE09C10E1F3206880023D806 /* Sources */,
+				BE09C10F1F3206880023D806 /* Frameworks */,
+				BE09C1101F3206880023D806 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AVPlayerCacheSupportStudy;
+			productName = AVPlayerCacheSupportStudy;
+			productReference = BE09C1121F3206880023D806 /* AVPlayerCacheSupportStudy.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BE09C12A1F3206880023D806 /* AVPlayerCacheSupportStudyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BE09C1421F3206880023D806 /* Build configuration list for PBXNativeTarget "AVPlayerCacheSupportStudyTests" */;
+			buildPhases = (
+				BE09C1271F3206880023D806 /* Sources */,
+				BE09C1281F3206880023D806 /* Frameworks */,
+				BE09C1291F3206880023D806 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BE09C12D1F3206880023D806 /* PBXTargetDependency */,
+			);
+			name = AVPlayerCacheSupportStudyTests;
+			productName = AVPlayerCacheSupportStudyTests;
+			productReference = BE09C12B1F3206880023D806 /* AVPlayerCacheSupportStudyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BE09C1351F3206880023D806 /* AVPlayerCacheSupportStudyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BE09C1451F3206880023D806 /* Build configuration list for PBXNativeTarget "AVPlayerCacheSupportStudyUITests" */;
+			buildPhases = (
+				BE09C1321F3206880023D806 /* Sources */,
+				BE09C1331F3206880023D806 /* Frameworks */,
+				BE09C1341F3206880023D806 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BE09C1381F3206880023D806 /* PBXTargetDependency */,
+			);
+			name = AVPlayerCacheSupportStudyUITests;
+			productName = AVPlayerCacheSupportStudyUITests;
+			productReference = BE09C1361F3206880023D806 /* AVPlayerCacheSupportStudyUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BE09C10A1F3206880023D806 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "黄伯驹";
+				TargetAttributes = {
+					BE09C1111F3206880023D806 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+					BE09C12A1F3206880023D806 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = BE09C1111F3206880023D806;
+					};
+					BE09C1351F3206880023D806 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = BE09C1111F3206880023D806;
+					};
+				};
+			};
+			buildConfigurationList = BE09C10D1F3206880023D806 /* Build configuration list for PBXProject "AVPlayerCacheSupportStudy" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BE09C1091F3206880023D806;
+			productRefGroup = BE09C1131F3206880023D806 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BE09C1111F3206880023D806 /* AVPlayerCacheSupportStudy */,
+				BE09C12A1F3206880023D806 /* AVPlayerCacheSupportStudyTests */,
+				BE09C1351F3206880023D806 /* AVPlayerCacheSupportStudyUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BE09C1101F3206880023D806 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE09C1251F3206880023D806 /* LaunchScreen.storyboard in Resources */,
+				BE09C1221F3206880023D806 /* Assets.xcassets in Resources */,
+				BE09C1201F3206880023D806 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE09C1291F3206880023D806 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE09C1341F3206880023D806 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BE09C10E1F3206880023D806 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE09C15E1F3206A40023D806 /* MCCacheSupportUtils.m in Sources */,
+				BE09C15B1F3206A40023D806 /* MCAVPlayerItemCacheTask.m in Sources */,
+				BE09C15A1F3206A40023D806 /* MCAVPlayerItemCacheLoader.m in Sources */,
+				BE09C15D1F3206A40023D806 /* MCAVPlayerItemRemoteCacheTask.m in Sources */,
+				BE09C11D1F3206880023D806 /* ViewController.m in Sources */,
+				BE09C1591F3206A40023D806 /* MCAVPlayerItemCacheFile.m in Sources */,
+				BE09C11A1F3206880023D806 /* AppDelegate.m in Sources */,
+				BE09C1171F3206880023D806 /* main.m in Sources */,
+				BE09C15C1F3206A40023D806 /* MCAVPlayerItemLocalCacheTask.m in Sources */,
+				BE09C1581F3206A40023D806 /* AVPlayerItem+MCCacheSupport.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE09C1271F3206880023D806 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE09C1301F3206880023D806 /* AVPlayerCacheSupportStudyTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE09C1321F3206880023D806 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE09C13B1F3206880023D806 /* AVPlayerCacheSupportStudyUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BE09C12D1F3206880023D806 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BE09C1111F3206880023D806 /* AVPlayerCacheSupportStudy */;
+			targetProxy = BE09C12C1F3206880023D806 /* PBXContainerItemProxy */;
+		};
+		BE09C1381F3206880023D806 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BE09C1111F3206880023D806 /* AVPlayerCacheSupportStudy */;
+			targetProxy = BE09C1371F3206880023D806 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BE09C11E1F3206880023D806 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BE09C11F1F3206880023D806 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BE09C1231F3206880023D806 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BE09C1241F3206880023D806 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BE09C13D1F3206880023D806 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BE09C13E1F3206880023D806 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BE09C1401F3206880023D806 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = AVPlayerCacheSupportStudy/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = huangboju.AVPlayerCacheSupportStudy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BE09C1411F3206880023D806 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = AVPlayerCacheSupportStudy/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = huangboju.AVPlayerCacheSupportStudy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		BE09C1431F3206880023D806 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = AVPlayerCacheSupportStudyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = huangboju.AVPlayerCacheSupportStudyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AVPlayerCacheSupportStudy.app/AVPlayerCacheSupportStudy";
+			};
+			name = Debug;
+		};
+		BE09C1441F3206880023D806 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = AVPlayerCacheSupportStudyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = huangboju.AVPlayerCacheSupportStudyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AVPlayerCacheSupportStudy.app/AVPlayerCacheSupportStudy";
+			};
+			name = Release;
+		};
+		BE09C1461F3206880023D806 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = AVPlayerCacheSupportStudyUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = huangboju.AVPlayerCacheSupportStudyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = AVPlayerCacheSupportStudy;
+			};
+			name = Debug;
+		};
+		BE09C1471F3206880023D806 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = AVPlayerCacheSupportStudyUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = huangboju.AVPlayerCacheSupportStudyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = AVPlayerCacheSupportStudy;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BE09C10D1F3206880023D806 /* Build configuration list for PBXProject "AVPlayerCacheSupportStudy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE09C13D1F3206880023D806 /* Debug */,
+				BE09C13E1F3206880023D806 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BE09C13F1F3206880023D806 /* Build configuration list for PBXNativeTarget "AVPlayerCacheSupportStudy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE09C1401F3206880023D806 /* Debug */,
+				BE09C1411F3206880023D806 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BE09C1421F3206880023D806 /* Build configuration list for PBXNativeTarget "AVPlayerCacheSupportStudyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE09C1431F3206880023D806 /* Debug */,
+				BE09C1441F3206880023D806 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BE09C1451F3206880023D806 /* Build configuration list for PBXNativeTarget "AVPlayerCacheSupportStudyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE09C1461F3206880023D806 /* Debug */,
+				BE09C1471F3206880023D806 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BE09C10A1F3206880023D806 /* Project object */;
+}

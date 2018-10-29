@@ -1,0 +1,903 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		042E9AAC1C8EA247004C406C /* HomePageHeadView.m in Sources */ = {isa = PBXBuildFile; fileRef = 042E9AA91C8EA247004C406C /* HomePageHeadView.m */; };
+		042E9AAD1C8EA247004C406C /* HPCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 042E9AAB1C8EA247004C406C /* HPCollectionViewCell.m */; };
+		042E9AB01C8EA269004C406C /* HomeThreeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 042E9AAF1C8EA269004C406C /* HomeThreeViewController.m */; };
+		042E9AB31C8EA66D004C406C /* HomeModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 042E9AB21C8EA66D004C406C /* HomeModel.m */; };
+		042E9AB71C8EA810004C406C /* RequestCustom.m in Sources */ = {isa = PBXBuildFile; fileRef = 042E9AB61C8EA810004C406C /* RequestCustom.m */; };
+		042E9ABA1C8EAA65004C406C /* BannerModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 042E9AB91C8EAA65004C406C /* BannerModel.m */; };
+		042E9ABC1C8EAC39004C406C /* HPCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 042E9ABB1C8EAC39004C406C /* HPCollectionViewCell.xib */; };
+		045631541C9FF5610099ED78 /* SYRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 045631531C9FF5610099ED78 /* SYRootViewController.m */; };
+		045631571C9FF7CF0099ED78 /* MulitipleSectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 045631561C9FF7CF0099ED78 /* MulitipleSectionViewController.m */; };
+		045979081C99039100C2E8C2 /* Classes in Resources */ = {isa = PBXBuildFile; fileRef = 045979071C99039100C2E8C2 /* Classes */; };
+		0459790B1C99054F00C2E8C2 /* SYStickHeaderWaterFallLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 0459790A1C99054F00C2E8C2 /* SYStickHeaderWaterFallLayout.m */; };
+		04A93B871CA0D7BC00C7DBC1 /* MulitipleSectionNoTopHeightViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A93B861CA0D7BC00C7DBC1 /* MulitipleSectionNoTopHeightViewController.m */; };
+		04A93B8A1CA0E2F500C7DBC1 /* MulitipleSectionHeaderToTopViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A93B891CA0E2F500C7DBC1 /* MulitipleSectionHeaderToTopViewController.m */; };
+		04A93B8C1CA0FB2C00C7DBC1 /* 4.gif in Resources */ = {isa = PBXBuildFile; fileRef = 04A93B8B1CA0FB2C00C7DBC1 /* 4.gif */; };
+		04CE95321C8992F000CBA178 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 04CE95311C8992F000CBA178 /* main.m */; };
+		04CE95351C8992F000CBA178 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 04CE95341C8992F000CBA178 /* AppDelegate.m */; };
+		04CE95381C8992F000CBA178 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04CE95371C8992F000CBA178 /* ViewController.m */; };
+		04CE953B1C8992F000CBA178 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04CE95391C8992F000CBA178 /* Main.storyboard */; };
+		04CE953D1C8992F000CBA178 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04CE953C1C8992F000CBA178 /* Assets.xcassets */; };
+		04CE95401C8992F000CBA178 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04CE953E1C8992F000CBA178 /* LaunchScreen.storyboard */; };
+		04CE954B1C8992F100CBA178 /* SYStickHeaderWaterFallTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04CE954A1C8992F100CBA178 /* SYStickHeaderWaterFallTests.m */; };
+		04CE95561C8992F100CBA178 /* SYStickHeaderWaterFallUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04CE95551C8992F100CBA178 /* SYStickHeaderWaterFallUITests.m */; };
+		43CD84D6E06320493D4D1043 /* libPods-SYStickHeaderWaterFall.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CDBDC4C18413DD503332F423 /* libPods-SYStickHeaderWaterFall.a */; };
+		89A35E9B7B673FA8C90880B8 /* libPods-SYStickHeaderWaterFallTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A1B489B8281B8BDD92943F8F /* libPods-SYStickHeaderWaterFallTests.a */; };
+		92698E6E2D2CC9838DE2ECCD /* libPods-SYStickHeaderWaterFallUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3201C1CCBC0FD703D130B35C /* libPods-SYStickHeaderWaterFallUITests.a */; };
+		F02289D91CD1F77800EFF43C /* SYSHomeRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = F02289D81CD1F77800EFF43C /* SYSHomeRequest.m */; };
+		F02289DC1CD203C600EFF43C /* SYSHomeBannerRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = F02289DB1CD203C600EFF43C /* SYSHomeBannerRequest.m */; };
+		F0E12CEF1CDC7B5A002BA5CC /* YYFPSLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = F0E12CEE1CDC7B5A002BA5CC /* YYFPSLabel.m */; };
+		F0E12CF21CDC7B91002BA5CC /* YYWeakProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = F0E12CF11CDC7B91002BA5CC /* YYWeakProxy.m */; };
+		F0E355591CD9CAD9003828FE /* 2.gif in Resources */ = {isa = PBXBuildFile; fileRef = F0E355581CD9CAD9003828FE /* 2.gif */; };
+		F0F07D6D1CD0CB3400B26453 /* BaseRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = F0F07D641CD0CB3400B26453 /* BaseRequest.m */; };
+		F0F07D6E1CD0CB3400B26453 /* NetWorkAgent.m in Sources */ = {isa = PBXBuildFile; fileRef = F0F07D661CD0CB3400B26453 /* NetWorkAgent.m */; };
+		F0F07D6F1CD0CB3400B26453 /* NetWorkConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = F0F07D681CD0CB3400B26453 /* NetWorkConfig.m */; };
+		F0F07D701CD0CB3400B26453 /* NetWorkPrivate.m in Sources */ = {isa = PBXBuildFile; fileRef = F0F07D6A1CD0CB3400B26453 /* NetWorkPrivate.m */; };
+		F0F07D711CD0CB3400B26453 /* YZPBaseRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = F0F07D6C1CD0CB3400B26453 /* YZPBaseRequest.m */; };
+		FE39D45F1CD77AF9005135DA /* HomeFooterCollectionReusableView.m in Sources */ = {isa = PBXBuildFile; fileRef = FE39D45E1CD77AF9005135DA /* HomeFooterCollectionReusableView.m */; };
+		FE39D4651CD78249005135DA /* MulitipleSectionHeaderFooterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FE39D4641CD78249005135DA /* MulitipleSectionHeaderFooterViewController.m */; };
+		FE39D4671CD78C4F005135DA /* 1.gif in Resources */ = {isa = PBXBuildFile; fileRef = FE39D4661CD78C4F005135DA /* 1.gif */; };
+		FE3B5AE81EBC6FA400E1F3E7 /* HomeData.json in Resources */ = {isa = PBXBuildFile; fileRef = FE3B5AE71EBC6FA400E1F3E7 /* HomeData.json */; };
+		FE402DB11CD8DA5A00FF7786 /* NoHeaderNoFooterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FE402DB01CD8DA5A00FF7786 /* NoHeaderNoFooterViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		04CE95471C8992F100CBA178 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04CE95251C8992F000CBA178 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04CE952C1C8992F000CBA178;
+			remoteInfo = SYStickHeaderWaterFall;
+		};
+		04CE95521C8992F100CBA178 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04CE95251C8992F000CBA178 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04CE952C1C8992F000CBA178;
+			remoteInfo = SYStickHeaderWaterFall;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		042E9AA81C8EA247004C406C /* HomePageHeadView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomePageHeadView.h; sourceTree = "<group>"; };
+		042E9AA91C8EA247004C406C /* HomePageHeadView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomePageHeadView.m; sourceTree = "<group>"; };
+		042E9AAA1C8EA247004C406C /* HPCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HPCollectionViewCell.h; sourceTree = "<group>"; };
+		042E9AAB1C8EA247004C406C /* HPCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HPCollectionViewCell.m; sourceTree = "<group>"; };
+		042E9AAE1C8EA269004C406C /* HomeThreeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeThreeViewController.h; sourceTree = "<group>"; };
+		042E9AAF1C8EA269004C406C /* HomeThreeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeThreeViewController.m; sourceTree = "<group>"; };
+		042E9AB11C8EA66D004C406C /* HomeModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeModel.h; sourceTree = "<group>"; };
+		042E9AB21C8EA66D004C406C /* HomeModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeModel.m; sourceTree = "<group>"; };
+		042E9AB51C8EA810004C406C /* RequestCustom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RequestCustom.h; sourceTree = "<group>"; };
+		042E9AB61C8EA810004C406C /* RequestCustom.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RequestCustom.m; sourceTree = "<group>"; };
+		042E9AB81C8EAA65004C406C /* BannerModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BannerModel.h; sourceTree = "<group>"; };
+		042E9AB91C8EAA65004C406C /* BannerModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BannerModel.m; sourceTree = "<group>"; };
+		042E9ABB1C8EAC39004C406C /* HPCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HPCollectionViewCell.xib; sourceTree = "<group>"; };
+		045631521C9FF5610099ED78 /* SYRootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SYRootViewController.h; sourceTree = "<group>"; };
+		045631531C9FF5610099ED78 /* SYRootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SYRootViewController.m; sourceTree = "<group>"; };
+		045631551C9FF7CF0099ED78 /* MulitipleSectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MulitipleSectionViewController.h; sourceTree = "<group>"; };
+		045631561C9FF7CF0099ED78 /* MulitipleSectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MulitipleSectionViewController.m; sourceTree = "<group>"; };
+		045979071C99039100C2E8C2 /* Classes */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Classes; path = SYStickHeaderWaterFall/Classes; sourceTree = "<group>"; };
+		0459790A1C99054F00C2E8C2 /* SYStickHeaderWaterFallLayout.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = SYStickHeaderWaterFallLayout.m; path = SYStickHeaderWaterFall/Classes/SYStickHeaderWaterFallLayout.m; sourceTree = "<group>"; };
+		04A93B851CA0D7BC00C7DBC1 /* MulitipleSectionNoTopHeightViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MulitipleSectionNoTopHeightViewController.h; sourceTree = "<group>"; };
+		04A93B861CA0D7BC00C7DBC1 /* MulitipleSectionNoTopHeightViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MulitipleSectionNoTopHeightViewController.m; sourceTree = "<group>"; };
+		04A93B881CA0E2F500C7DBC1 /* MulitipleSectionHeaderToTopViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MulitipleSectionHeaderToTopViewController.h; sourceTree = "<group>"; };
+		04A93B891CA0E2F500C7DBC1 /* MulitipleSectionHeaderToTopViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MulitipleSectionHeaderToTopViewController.m; sourceTree = "<group>"; };
+		04A93B8B1CA0FB2C00C7DBC1 /* 4.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 4.gif; sourceTree = "<group>"; };
+		04CE952D1C8992F000CBA178 /* SYStickHeaderWaterFall.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SYStickHeaderWaterFall.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		04CE95311C8992F000CBA178 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		04CE95331C8992F000CBA178 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		04CE95341C8992F000CBA178 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		04CE95361C8992F000CBA178 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		04CE95371C8992F000CBA178 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		04CE953A1C8992F000CBA178 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		04CE953C1C8992F000CBA178 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		04CE953F1C8992F000CBA178 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		04CE95411C8992F000CBA178 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04CE95461C8992F100CBA178 /* SYStickHeaderWaterFallTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SYStickHeaderWaterFallTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		04CE954A1C8992F100CBA178 /* SYStickHeaderWaterFallTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SYStickHeaderWaterFallTests.m; sourceTree = "<group>"; };
+		04CE954C1C8992F100CBA178 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04CE95511C8992F100CBA178 /* SYStickHeaderWaterFallUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SYStickHeaderWaterFallUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		04CE95551C8992F100CBA178 /* SYStickHeaderWaterFallUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SYStickHeaderWaterFallUITests.m; sourceTree = "<group>"; };
+		04CE95571C8992F100CBA178 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3201C1CCBC0FD703D130B35C /* libPods-SYStickHeaderWaterFallUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SYStickHeaderWaterFallUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F7A6B004A65890C742012AD /* Pods-SYStickHeaderWaterFall.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SYStickHeaderWaterFall.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SYStickHeaderWaterFall/Pods-SYStickHeaderWaterFall.debug.xcconfig"; sourceTree = "<group>"; };
+		7802C47C1F945FA03A9A3577 /* Pods-SYStickHeaderWaterFallUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SYStickHeaderWaterFallUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SYStickHeaderWaterFallUITests/Pods-SYStickHeaderWaterFallUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		9A7A8538F9C905F586F89541 /* Pods-SYStickHeaderWaterFallUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SYStickHeaderWaterFallUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SYStickHeaderWaterFallUITests/Pods-SYStickHeaderWaterFallUITests.release.xcconfig"; sourceTree = "<group>"; };
+		A1B489B8281B8BDD92943F8F /* libPods-SYStickHeaderWaterFallTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SYStickHeaderWaterFallTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB62A1E3D201D40FE8F3BCA4 /* Pods-SYStickHeaderWaterFall.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SYStickHeaderWaterFall.release.xcconfig"; path = "Pods/Target Support Files/Pods-SYStickHeaderWaterFall/Pods-SYStickHeaderWaterFall.release.xcconfig"; sourceTree = "<group>"; };
+		BEB81134C9AF2972112DCED5 /* Pods-SYStickHeaderWaterFallTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SYStickHeaderWaterFallTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SYStickHeaderWaterFallTests/Pods-SYStickHeaderWaterFallTests.release.xcconfig"; sourceTree = "<group>"; };
+		CDBDC4C18413DD503332F423 /* libPods-SYStickHeaderWaterFall.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SYStickHeaderWaterFall.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EEC273E535D9358DFEA02119 /* Pods-SYStickHeaderWaterFallTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SYStickHeaderWaterFallTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SYStickHeaderWaterFallTests/Pods-SYStickHeaderWaterFallTests.debug.xcconfig"; sourceTree = "<group>"; };
+		F02289D71CD1F77800EFF43C /* SYSHomeRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SYSHomeRequest.h; sourceTree = "<group>"; };
+		F02289D81CD1F77800EFF43C /* SYSHomeRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SYSHomeRequest.m; sourceTree = "<group>"; };
+		F02289DA1CD203C600EFF43C /* SYSHomeBannerRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SYSHomeBannerRequest.h; sourceTree = "<group>"; };
+		F02289DB1CD203C600EFF43C /* SYSHomeBannerRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SYSHomeBannerRequest.m; sourceTree = "<group>"; };
+		F02289DD1CD2042400EFF43C /* SYSURLMacro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SYSURLMacro.h; sourceTree = "<group>"; };
+		F02289DE1CD206CF00EFF43C /* SYSMAINMacro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = SYSMAINMacro.h; path = ../SYSMAINMacro.h; sourceTree = "<group>"; };
+		F0E12CED1CDC7B59002BA5CC /* YYFPSLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYFPSLabel.h; sourceTree = "<group>"; };
+		F0E12CEE1CDC7B5A002BA5CC /* YYFPSLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYFPSLabel.m; sourceTree = "<group>"; };
+		F0E12CF01CDC7B91002BA5CC /* YYWeakProxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYWeakProxy.h; sourceTree = "<group>"; };
+		F0E12CF11CDC7B91002BA5CC /* YYWeakProxy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYWeakProxy.m; sourceTree = "<group>"; };
+		F0E355581CD9CAD9003828FE /* 2.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 2.gif; sourceTree = "<group>"; };
+		F0F07D631CD0CB3400B26453 /* BaseRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseRequest.h; sourceTree = "<group>"; };
+		F0F07D641CD0CB3400B26453 /* BaseRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseRequest.m; sourceTree = "<group>"; };
+		F0F07D651CD0CB3400B26453 /* NetWorkAgent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetWorkAgent.h; sourceTree = "<group>"; };
+		F0F07D661CD0CB3400B26453 /* NetWorkAgent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetWorkAgent.m; sourceTree = "<group>"; };
+		F0F07D671CD0CB3400B26453 /* NetWorkConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetWorkConfig.h; sourceTree = "<group>"; };
+		F0F07D681CD0CB3400B26453 /* NetWorkConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetWorkConfig.m; sourceTree = "<group>"; };
+		F0F07D691CD0CB3400B26453 /* NetWorkPrivate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetWorkPrivate.h; sourceTree = "<group>"; };
+		F0F07D6A1CD0CB3400B26453 /* NetWorkPrivate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetWorkPrivate.m; sourceTree = "<group>"; };
+		F0F07D6B1CD0CB3400B26453 /* YZPBaseRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YZPBaseRequest.h; sourceTree = "<group>"; };
+		F0F07D6C1CD0CB3400B26453 /* YZPBaseRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YZPBaseRequest.m; sourceTree = "<group>"; };
+		FE39D45D1CD77AF9005135DA /* HomeFooterCollectionReusableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeFooterCollectionReusableView.h; sourceTree = "<group>"; };
+		FE39D45E1CD77AF9005135DA /* HomeFooterCollectionReusableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeFooterCollectionReusableView.m; sourceTree = "<group>"; };
+		FE39D4631CD78249005135DA /* MulitipleSectionHeaderFooterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MulitipleSectionHeaderFooterViewController.h; sourceTree = "<group>"; };
+		FE39D4641CD78249005135DA /* MulitipleSectionHeaderFooterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MulitipleSectionHeaderFooterViewController.m; sourceTree = "<group>"; };
+		FE39D4661CD78C4F005135DA /* 1.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 1.gif; sourceTree = "<group>"; };
+		FE3B5AE71EBC6FA400E1F3E7 /* HomeData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = HomeData.json; sourceTree = "<group>"; };
+		FE402DAF1CD8DA5A00FF7786 /* NoHeaderNoFooterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NoHeaderNoFooterViewController.h; sourceTree = "<group>"; };
+		FE402DB01CD8DA5A00FF7786 /* NoHeaderNoFooterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NoHeaderNoFooterViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		04CE952A1C8992F000CBA178 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43CD84D6E06320493D4D1043 /* libPods-SYStickHeaderWaterFall.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04CE95431C8992F100CBA178 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				89A35E9B7B673FA8C90880B8 /* libPods-SYStickHeaderWaterFallTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04CE954E1C8992F100CBA178 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92698E6E2D2CC9838DE2ECCD /* libPods-SYStickHeaderWaterFallUITests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		042E9AA71C8EA169004C406C /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				FE39D4631CD78249005135DA /* MulitipleSectionHeaderFooterViewController.h */,
+				FE39D4641CD78249005135DA /* MulitipleSectionHeaderFooterViewController.m */,
+				042E9AAE1C8EA269004C406C /* HomeThreeViewController.h */,
+				042E9AAF1C8EA269004C406C /* HomeThreeViewController.m */,
+				045631551C9FF7CF0099ED78 /* MulitipleSectionViewController.h */,
+				045631561C9FF7CF0099ED78 /* MulitipleSectionViewController.m */,
+				04A93B851CA0D7BC00C7DBC1 /* MulitipleSectionNoTopHeightViewController.h */,
+				04A93B861CA0D7BC00C7DBC1 /* MulitipleSectionNoTopHeightViewController.m */,
+				04A93B881CA0E2F500C7DBC1 /* MulitipleSectionHeaderToTopViewController.h */,
+				04A93B891CA0E2F500C7DBC1 /* MulitipleSectionHeaderToTopViewController.m */,
+				FE402DAF1CD8DA5A00FF7786 /* NoHeaderNoFooterViewController.h */,
+				FE402DB01CD8DA5A00FF7786 /* NoHeaderNoFooterViewController.m */,
+				FE3B5AE71EBC6FA400E1F3E7 /* HomeData.json */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		042E9AB41C8EA7D4004C406C /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+				F0F07D631CD0CB3400B26453 /* BaseRequest.h */,
+				F0F07D641CD0CB3400B26453 /* BaseRequest.m */,
+				F0F07D651CD0CB3400B26453 /* NetWorkAgent.h */,
+				F0F07D661CD0CB3400B26453 /* NetWorkAgent.m */,
+				F0F07D671CD0CB3400B26453 /* NetWorkConfig.h */,
+				F0F07D681CD0CB3400B26453 /* NetWorkConfig.m */,
+				F0F07D691CD0CB3400B26453 /* NetWorkPrivate.h */,
+				F0F07D6A1CD0CB3400B26453 /* NetWorkPrivate.m */,
+				F0F07D6B1CD0CB3400B26453 /* YZPBaseRequest.h */,
+				F0F07D6C1CD0CB3400B26453 /* YZPBaseRequest.m */,
+				042E9AB51C8EA810004C406C /* RequestCustom.h */,
+				042E9AB61C8EA810004C406C /* RequestCustom.m */,
+			);
+			name = Tool;
+			sourceTree = "<group>";
+		};
+		04CE95241C8992F000CBA178 = {
+			isa = PBXGroup;
+			children = (
+				0459790A1C99054F00C2E8C2 /* SYStickHeaderWaterFallLayout.m */,
+				045979071C99039100C2E8C2 /* Classes */,
+				04CE952F1C8992F000CBA178 /* SYStickHeaderWaterFall */,
+				04CE95491C8992F100CBA178 /* SYStickHeaderWaterFallTests */,
+				04CE95541C8992F100CBA178 /* SYStickHeaderWaterFallUITests */,
+				04CE952E1C8992F000CBA178 /* Products */,
+				1FEADCEA23C732A1EB6853E1 /* Pods */,
+				DFFA959CDF854F606EAD51E6 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		04CE952E1C8992F000CBA178 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				04CE952D1C8992F000CBA178 /* SYStickHeaderWaterFall.app */,
+				04CE95461C8992F100CBA178 /* SYStickHeaderWaterFallTests.xctest */,
+				04CE95511C8992F100CBA178 /* SYStickHeaderWaterFallUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		04CE952F1C8992F000CBA178 /* SYStickHeaderWaterFall */ = {
+			isa = PBXGroup;
+			children = (
+				F0E355581CD9CAD9003828FE /* 2.gif */,
+				FE39D4661CD78C4F005135DA /* 1.gif */,
+				F02289D61CD1F73700EFF43C /* Api */,
+				04A93B8B1CA0FB2C00C7DBC1 /* 4.gif */,
+				042E9AB41C8EA7D4004C406C /* Tool */,
+				042E9AA71C8EA169004C406C /* Controller */,
+				04CE95671C89998400CBA178 /* View */,
+				04CE95631C89934000CBA178 /* Model */,
+				04CE95331C8992F000CBA178 /* AppDelegate.h */,
+				04CE95341C8992F000CBA178 /* AppDelegate.m */,
+				04CE95361C8992F000CBA178 /* ViewController.h */,
+				04CE95371C8992F000CBA178 /* ViewController.m */,
+				04CE95391C8992F000CBA178 /* Main.storyboard */,
+				04CE953C1C8992F000CBA178 /* Assets.xcassets */,
+				04CE953E1C8992F000CBA178 /* LaunchScreen.storyboard */,
+				04CE95411C8992F000CBA178 /* Info.plist */,
+				04CE95301C8992F000CBA178 /* Supporting Files */,
+				045631521C9FF5610099ED78 /* SYRootViewController.h */,
+				F02289DE1CD206CF00EFF43C /* SYSMAINMacro.h */,
+				045631531C9FF5610099ED78 /* SYRootViewController.m */,
+				F02289DD1CD2042400EFF43C /* SYSURLMacro.h */,
+			);
+			path = SYStickHeaderWaterFall;
+			sourceTree = "<group>";
+		};
+		04CE95301C8992F000CBA178 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				04CE95311C8992F000CBA178 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		04CE95491C8992F100CBA178 /* SYStickHeaderWaterFallTests */ = {
+			isa = PBXGroup;
+			children = (
+				04CE954A1C8992F100CBA178 /* SYStickHeaderWaterFallTests.m */,
+				04CE954C1C8992F100CBA178 /* Info.plist */,
+			);
+			path = SYStickHeaderWaterFallTests;
+			sourceTree = "<group>";
+		};
+		04CE95541C8992F100CBA178 /* SYStickHeaderWaterFallUITests */ = {
+			isa = PBXGroup;
+			children = (
+				04CE95551C8992F100CBA178 /* SYStickHeaderWaterFallUITests.m */,
+				04CE95571C8992F100CBA178 /* Info.plist */,
+			);
+			path = SYStickHeaderWaterFallUITests;
+			sourceTree = "<group>";
+		};
+		04CE95631C89934000CBA178 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				042E9AB81C8EAA65004C406C /* BannerModel.h */,
+				042E9AB91C8EAA65004C406C /* BannerModel.m */,
+				042E9AB11C8EA66D004C406C /* HomeModel.h */,
+				042E9AB21C8EA66D004C406C /* HomeModel.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		04CE95671C89998400CBA178 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F0E12CF01CDC7B91002BA5CC /* YYWeakProxy.h */,
+				F0E12CF11CDC7B91002BA5CC /* YYWeakProxy.m */,
+				F0E12CED1CDC7B59002BA5CC /* YYFPSLabel.h */,
+				F0E12CEE1CDC7B5A002BA5CC /* YYFPSLabel.m */,
+				FE39D45D1CD77AF9005135DA /* HomeFooterCollectionReusableView.h */,
+				FE39D45E1CD77AF9005135DA /* HomeFooterCollectionReusableView.m */,
+				042E9AA81C8EA247004C406C /* HomePageHeadView.h */,
+				042E9AA91C8EA247004C406C /* HomePageHeadView.m */,
+				042E9AAA1C8EA247004C406C /* HPCollectionViewCell.h */,
+				042E9AAB1C8EA247004C406C /* HPCollectionViewCell.m */,
+				042E9ABB1C8EAC39004C406C /* HPCollectionViewCell.xib */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		1FEADCEA23C732A1EB6853E1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3F7A6B004A65890C742012AD /* Pods-SYStickHeaderWaterFall.debug.xcconfig */,
+				BB62A1E3D201D40FE8F3BCA4 /* Pods-SYStickHeaderWaterFall.release.xcconfig */,
+				EEC273E535D9358DFEA02119 /* Pods-SYStickHeaderWaterFallTests.debug.xcconfig */,
+				BEB81134C9AF2972112DCED5 /* Pods-SYStickHeaderWaterFallTests.release.xcconfig */,
+				7802C47C1F945FA03A9A3577 /* Pods-SYStickHeaderWaterFallUITests.debug.xcconfig */,
+				9A7A8538F9C905F586F89541 /* Pods-SYStickHeaderWaterFallUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		DFFA959CDF854F606EAD51E6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CDBDC4C18413DD503332F423 /* libPods-SYStickHeaderWaterFall.a */,
+				A1B489B8281B8BDD92943F8F /* libPods-SYStickHeaderWaterFallTests.a */,
+				3201C1CCBC0FD703D130B35C /* libPods-SYStickHeaderWaterFallUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F02289D61CD1F73700EFF43C /* Api */ = {
+			isa = PBXGroup;
+			children = (
+				F02289D71CD1F77800EFF43C /* SYSHomeRequest.h */,
+				F02289D81CD1F77800EFF43C /* SYSHomeRequest.m */,
+				F02289DA1CD203C600EFF43C /* SYSHomeBannerRequest.h */,
+				F02289DB1CD203C600EFF43C /* SYSHomeBannerRequest.m */,
+			);
+			name = Api;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		04CE952C1C8992F000CBA178 /* SYStickHeaderWaterFall */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04CE955A1C8992F100CBA178 /* Build configuration list for PBXNativeTarget "SYStickHeaderWaterFall" */;
+			buildPhases = (
+				4D9C3ECFFE4358BA1E0FC50B /* Check Pods Manifest.lock */,
+				04CE95291C8992F000CBA178 /* Sources */,
+				04CE952A1C8992F000CBA178 /* Frameworks */,
+				04CE952B1C8992F000CBA178 /* Resources */,
+				188907C9D929DE7CC137C91D /* Embed Pods Frameworks */,
+				C405FBC850498FE9C035CF46 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SYStickHeaderWaterFall;
+			productName = SYStickHeaderWaterFall;
+			productReference = 04CE952D1C8992F000CBA178 /* SYStickHeaderWaterFall.app */;
+			productType = "com.apple.product-type.application";
+		};
+		04CE95451C8992F100CBA178 /* SYStickHeaderWaterFallTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04CE955D1C8992F100CBA178 /* Build configuration list for PBXNativeTarget "SYStickHeaderWaterFallTests" */;
+			buildPhases = (
+				F1782E47EEABD40F4CF9D88A /* Check Pods Manifest.lock */,
+				04CE95421C8992F100CBA178 /* Sources */,
+				04CE95431C8992F100CBA178 /* Frameworks */,
+				04CE95441C8992F100CBA178 /* Resources */,
+				121F113F719D2B0DE7C8378A /* Embed Pods Frameworks */,
+				2F0A9101D296962567ADEC5D /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				04CE95481C8992F100CBA178 /* PBXTargetDependency */,
+			);
+			name = SYStickHeaderWaterFallTests;
+			productName = SYStickHeaderWaterFallTests;
+			productReference = 04CE95461C8992F100CBA178 /* SYStickHeaderWaterFallTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		04CE95501C8992F100CBA178 /* SYStickHeaderWaterFallUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04CE95601C8992F100CBA178 /* Build configuration list for PBXNativeTarget "SYStickHeaderWaterFallUITests" */;
+			buildPhases = (
+				D979F992785E6FA0C9E27ECD /* Check Pods Manifest.lock */,
+				04CE954D1C8992F100CBA178 /* Sources */,
+				04CE954E1C8992F100CBA178 /* Frameworks */,
+				04CE954F1C8992F100CBA178 /* Resources */,
+				7C72A9494EAAD69C6B885B14 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				04CE95531C8992F100CBA178 /* PBXTargetDependency */,
+			);
+			name = SYStickHeaderWaterFallUITests;
+			productName = SYStickHeaderWaterFallUITests;
+			productReference = 04CE95511C8992F100CBA178 /* SYStickHeaderWaterFallUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		04CE95251C8992F000CBA178 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = suya;
+				TargetAttributes = {
+					04CE952C1C8992F000CBA178 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					04CE95451C8992F100CBA178 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 04CE952C1C8992F000CBA178;
+					};
+					04CE95501C8992F100CBA178 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 04CE952C1C8992F000CBA178;
+					};
+				};
+			};
+			buildConfigurationList = 04CE95281C8992F000CBA178 /* Build configuration list for PBXProject "SYStickHeaderWaterFall" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 04CE95241C8992F000CBA178;
+			productRefGroup = 04CE952E1C8992F000CBA178 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				04CE952C1C8992F000CBA178 /* SYStickHeaderWaterFall */,
+				04CE95451C8992F100CBA178 /* SYStickHeaderWaterFallTests */,
+				04CE95501C8992F100CBA178 /* SYStickHeaderWaterFallUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		04CE952B1C8992F000CBA178 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				042E9ABC1C8EAC39004C406C /* HPCollectionViewCell.xib in Resources */,
+				04CE95401C8992F000CBA178 /* LaunchScreen.storyboard in Resources */,
+				04CE953D1C8992F000CBA178 /* Assets.xcassets in Resources */,
+				F0E355591CD9CAD9003828FE /* 2.gif in Resources */,
+				04CE953B1C8992F000CBA178 /* Main.storyboard in Resources */,
+				FE39D4671CD78C4F005135DA /* 1.gif in Resources */,
+				FE3B5AE81EBC6FA400E1F3E7 /* HomeData.json in Resources */,
+				045979081C99039100C2E8C2 /* Classes in Resources */,
+				04A93B8C1CA0FB2C00C7DBC1 /* 4.gif in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04CE95441C8992F100CBA178 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04CE954F1C8992F100CBA178 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		121F113F719D2B0DE7C8378A /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SYStickHeaderWaterFallTests/Pods-SYStickHeaderWaterFallTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		188907C9D929DE7CC137C91D /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SYStickHeaderWaterFall/Pods-SYStickHeaderWaterFall-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2F0A9101D296962567ADEC5D /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SYStickHeaderWaterFallTests/Pods-SYStickHeaderWaterFallTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4D9C3ECFFE4358BA1E0FC50B /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		7C72A9494EAAD69C6B885B14 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SYStickHeaderWaterFallUITests/Pods-SYStickHeaderWaterFallUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C405FBC850498FE9C035CF46 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SYStickHeaderWaterFall/Pods-SYStickHeaderWaterFall-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D979F992785E6FA0C9E27ECD /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F1782E47EEABD40F4CF9D88A /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		04CE95291C8992F000CBA178 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0459790B1C99054F00C2E8C2 /* SYStickHeaderWaterFallLayout.m in Sources */,
+				042E9AB31C8EA66D004C406C /* HomeModel.m in Sources */,
+				F0F07D6E1CD0CB3400B26453 /* NetWorkAgent.m in Sources */,
+				F02289DC1CD203C600EFF43C /* SYSHomeBannerRequest.m in Sources */,
+				04A93B8A1CA0E2F500C7DBC1 /* MulitipleSectionHeaderToTopViewController.m in Sources */,
+				04A93B871CA0D7BC00C7DBC1 /* MulitipleSectionNoTopHeightViewController.m in Sources */,
+				F0E12CEF1CDC7B5A002BA5CC /* YYFPSLabel.m in Sources */,
+				04CE95381C8992F000CBA178 /* ViewController.m in Sources */,
+				FE39D45F1CD77AF9005135DA /* HomeFooterCollectionReusableView.m in Sources */,
+				F0F07D701CD0CB3400B26453 /* NetWorkPrivate.m in Sources */,
+				042E9AB71C8EA810004C406C /* RequestCustom.m in Sources */,
+				042E9AAC1C8EA247004C406C /* HomePageHeadView.m in Sources */,
+				F0F07D711CD0CB3400B26453 /* YZPBaseRequest.m in Sources */,
+				F0F07D6D1CD0CB3400B26453 /* BaseRequest.m in Sources */,
+				04CE95351C8992F000CBA178 /* AppDelegate.m in Sources */,
+				F02289D91CD1F77800EFF43C /* SYSHomeRequest.m in Sources */,
+				042E9AAD1C8EA247004C406C /* HPCollectionViewCell.m in Sources */,
+				FE402DB11CD8DA5A00FF7786 /* NoHeaderNoFooterViewController.m in Sources */,
+				045631541C9FF5610099ED78 /* SYRootViewController.m in Sources */,
+				045631571C9FF7CF0099ED78 /* MulitipleSectionViewController.m in Sources */,
+				F0E12CF21CDC7B91002BA5CC /* YYWeakProxy.m in Sources */,
+				04CE95321C8992F000CBA178 /* main.m in Sources */,
+				FE39D4651CD78249005135DA /* MulitipleSectionHeaderFooterViewController.m in Sources */,
+				042E9AB01C8EA269004C406C /* HomeThreeViewController.m in Sources */,
+				042E9ABA1C8EAA65004C406C /* BannerModel.m in Sources */,
+				F0F07D6F1CD0CB3400B26453 /* NetWorkConfig.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04CE95421C8992F100CBA178 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04CE954B1C8992F100CBA178 /* SYStickHeaderWaterFallTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04CE954D1C8992F100CBA178 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04CE95561C8992F100CBA178 /* SYStickHeaderWaterFallUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		04CE95481C8992F100CBA178 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04CE952C1C8992F000CBA178 /* SYStickHeaderWaterFall */;
+			targetProxy = 04CE95471C8992F100CBA178 /* PBXContainerItemProxy */;
+		};
+		04CE95531C8992F100CBA178 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04CE952C1C8992F000CBA178 /* SYStickHeaderWaterFall */;
+			targetProxy = 04CE95521C8992F100CBA178 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		04CE95391C8992F000CBA178 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04CE953A1C8992F000CBA178 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		04CE953E1C8992F000CBA178 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04CE953F1C8992F000CBA178 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		04CE95581C8992F100CBA178 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		04CE95591C8992F100CBA178 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		04CE955B1C8992F100CBA178 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3F7A6B004A65890C742012AD /* Pods-SYStickHeaderWaterFall.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SYStickHeaderWaterFall/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.suya.SYStickHeaderWaterFall;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		04CE955C1C8992F100CBA178 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BB62A1E3D201D40FE8F3BCA4 /* Pods-SYStickHeaderWaterFall.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SYStickHeaderWaterFall/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.suya.SYStickHeaderWaterFall;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		04CE955E1C8992F100CBA178 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EEC273E535D9358DFEA02119 /* Pods-SYStickHeaderWaterFallTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SYStickHeaderWaterFallTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.suya.SYStickHeaderWaterFallTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SYStickHeaderWaterFall.app/SYStickHeaderWaterFall";
+			};
+			name = Debug;
+		};
+		04CE955F1C8992F100CBA178 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BEB81134C9AF2972112DCED5 /* Pods-SYStickHeaderWaterFallTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SYStickHeaderWaterFallTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.suya.SYStickHeaderWaterFallTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SYStickHeaderWaterFall.app/SYStickHeaderWaterFall";
+			};
+			name = Release;
+		};
+		04CE95611C8992F100CBA178 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7802C47C1F945FA03A9A3577 /* Pods-SYStickHeaderWaterFallUITests.debug.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = SYStickHeaderWaterFallUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.suya.SYStickHeaderWaterFallUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SYStickHeaderWaterFall;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		04CE95621C8992F100CBA178 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9A7A8538F9C905F586F89541 /* Pods-SYStickHeaderWaterFallUITests.release.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = SYStickHeaderWaterFallUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.suya.SYStickHeaderWaterFallUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SYStickHeaderWaterFall;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		04CE95281C8992F000CBA178 /* Build configuration list for PBXProject "SYStickHeaderWaterFall" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04CE95581C8992F100CBA178 /* Debug */,
+				04CE95591C8992F100CBA178 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04CE955A1C8992F100CBA178 /* Build configuration list for PBXNativeTarget "SYStickHeaderWaterFall" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04CE955B1C8992F100CBA178 /* Debug */,
+				04CE955C1C8992F100CBA178 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04CE955D1C8992F100CBA178 /* Build configuration list for PBXNativeTarget "SYStickHeaderWaterFallTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04CE955E1C8992F100CBA178 /* Debug */,
+				04CE955F1C8992F100CBA178 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04CE95601C8992F100CBA178 /* Build configuration list for PBXNativeTarget "SYStickHeaderWaterFallUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04CE95611C8992F100CBA178 /* Debug */,
+				04CE95621C8992F100CBA178 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 04CE95251C8992F000CBA178 /* Project object */;
+}
