@@ -1,0 +1,22 @@
+PODS:
+  - CTAssetsPickerController (3.3.1):
+    - PureLayout (~> 3.0.0)
+  - DKImagePickerController (3.4.2):
+    - DKImagePickerController/Camera (= 3.4.2)
+    - DKImagePickerController/ImageManager (= 3.4.2)
+  - DKImagePickerController/Camera (3.4.2)
+  - DKImagePickerController/ImageManager (3.4.2)
+  - PureLayout (3.0.2)
+
+DEPENDENCIES:
+  - CTAssetsPickerController
+  - DKImagePickerController
+
+SPEC CHECKSUMS:
+  CTAssetsPickerController: b1d1d50ab87cf6b8b13531de5f4530482e7e53ed
+  DKImagePickerController: 8fc8a42120cb0c9b7982af04d47e0e5b25b5186f
+  PureLayout: 4d550abe49a94f24c2808b9b95db9131685fe4cd
+
+PODFILE CHECKSUM: f1a6a094838c5b9923ee0d950ae2f3509b2b69e2
+
+COCOAPODS: 1.2.0.beta.1
