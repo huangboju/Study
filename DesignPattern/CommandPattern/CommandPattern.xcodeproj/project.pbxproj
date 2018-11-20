@@ -1,0 +1,301 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D824102D1E235D440005E324 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = D824102C1E235D440005E324 /* main.swift */; };
+		D82410341E235D6A0005E324 /* CommandInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = D82410331E235D6A0005E324 /* CommandInterface.swift */; };
+		D82410361E235DB20005E324 /* RemoteControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = D82410351E235DB20005E324 /* RemoteControl.swift */; };
+		D82410381E2360020005E324 /* NOCommand.swift in Sources */ = {isa = PBXBuildFile; fileRef = D82410371E2360020005E324 /* NOCommand.swift */; };
+		D824103A1E2360CE0005E324 /* RemoteLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = D82410391E2360CE0005E324 /* RemoteLoader.swift */; };
+		D824103C1E23614D0005E324 /* Light.swift in Sources */ = {isa = PBXBuildFile; fileRef = D824103B1E23614D0005E324 /* Light.swift */; };
+		D824103E1E2362390005E324 /* CDPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = D824103D1E2362390005E324 /* CDPlayer.swift */; };
+		D82410401E2363300005E324 /* LightOnCommand.swift in Sources */ = {isa = PBXBuildFile; fileRef = D824103F1E2363300005E324 /* LightOnCommand.swift */; };
+		D82410421E2365450005E324 /* LightOffCommand.swift in Sources */ = {isa = PBXBuildFile; fileRef = D82410411E2365450005E324 /* LightOffCommand.swift */; };
+		D82410441E23657C0005E324 /* CDPlayerOnCommand.swift in Sources */ = {isa = PBXBuildFile; fileRef = D82410431E23657C0005E324 /* CDPlayerOnCommand.swift */; };
+		D82410461E2366230005E324 /* CDPlayerOffCommand.swift in Sources */ = {isa = PBXBuildFile; fileRef = D82410451E2366230005E324 /* CDPlayerOffCommand.swift */; };
+		D82410481E2367E20005E324 /* MacroCommand.swift in Sources */ = {isa = PBXBuildFile; fileRef = D82410471E2367E20005E324 /* MacroCommand.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		D82410271E235D440005E324 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		D82410291E235D440005E324 /* CommandPattern */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = CommandPattern; sourceTree = BUILT_PRODUCTS_DIR; };
+		D824102C1E235D440005E324 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		D82410331E235D6A0005E324 /* CommandInterface.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommandInterface.swift; sourceTree = "<group>"; };
+		D82410351E235DB20005E324 /* RemoteControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RemoteControl.swift; sourceTree = "<group>"; };
+		D82410371E2360020005E324 /* NOCommand.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NOCommand.swift; sourceTree = "<group>"; };
+		D82410391E2360CE0005E324 /* RemoteLoader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RemoteLoader.swift; sourceTree = "<group>"; };
+		D824103B1E23614D0005E324 /* Light.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Light.swift; sourceTree = "<group>"; };
+		D824103D1E2362390005E324 /* CDPlayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CDPlayer.swift; sourceTree = "<group>"; };
+		D824103F1E2363300005E324 /* LightOnCommand.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LightOnCommand.swift; sourceTree = "<group>"; };
+		D82410411E2365450005E324 /* LightOffCommand.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LightOffCommand.swift; sourceTree = "<group>"; };
+		D82410431E23657C0005E324 /* CDPlayerOnCommand.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CDPlayerOnCommand.swift; sourceTree = "<group>"; };
+		D82410451E2366230005E324 /* CDPlayerOffCommand.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CDPlayerOffCommand.swift; sourceTree = "<group>"; };
+		D82410471E2367E20005E324 /* MacroCommand.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MacroCommand.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D82410261E235D440005E324 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D82410201E235D440005E324 = {
+			isa = PBXGroup;
+			children = (
+				D824102B1E235D440005E324 /* CommandPattern */,
+				D824102A1E235D440005E324 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D824102A1E235D440005E324 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D82410291E235D440005E324 /* CommandPattern */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D824102B1E235D440005E324 /* CommandPattern */ = {
+			isa = PBXGroup;
+			children = (
+				D824102C1E235D440005E324 /* main.swift */,
+				D82410331E235D6A0005E324 /* CommandInterface.swift */,
+				D82410351E235DB20005E324 /* RemoteControl.swift */,
+				D82410371E2360020005E324 /* NOCommand.swift */,
+				D82410391E2360CE0005E324 /* RemoteLoader.swift */,
+				D824103B1E23614D0005E324 /* Light.swift */,
+				D824103D1E2362390005E324 /* CDPlayer.swift */,
+				D824103F1E2363300005E324 /* LightOnCommand.swift */,
+				D82410411E2365450005E324 /* LightOffCommand.swift */,
+				D82410431E23657C0005E324 /* CDPlayerOnCommand.swift */,
+				D82410451E2366230005E324 /* CDPlayerOffCommand.swift */,
+				D82410471E2367E20005E324 /* MacroCommand.swift */,
+			);
+			path = CommandPattern;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D82410281E235D440005E324 /* CommandPattern */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D82410301E235D440005E324 /* Build configuration list for PBXNativeTarget "CommandPattern" */;
+			buildPhases = (
+				D82410251E235D440005E324 /* Sources */,
+				D82410261E235D440005E324 /* Frameworks */,
+				D82410271E235D440005E324 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CommandPattern;
+			productName = CommandPattern;
+			productReference = D82410291E235D440005E324 /* CommandPattern */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D82410211E235D440005E324 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "伯驹 黄";
+				TargetAttributes = {
+					D82410281E235D440005E324 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = D82410241E235D440005E324 /* Build configuration list for PBXProject "CommandPattern" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = D82410201E235D440005E324;
+			productRefGroup = D824102A1E235D440005E324 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D82410281E235D440005E324 /* CommandPattern */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D82410251E235D440005E324 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D824103C1E23614D0005E324 /* Light.swift in Sources */,
+				D82410461E2366230005E324 /* CDPlayerOffCommand.swift in Sources */,
+				D82410481E2367E20005E324 /* MacroCommand.swift in Sources */,
+				D824102D1E235D440005E324 /* main.swift in Sources */,
+				D82410341E235D6A0005E324 /* CommandInterface.swift in Sources */,
+				D82410441E23657C0005E324 /* CDPlayerOnCommand.swift in Sources */,
+				D82410401E2363300005E324 /* LightOnCommand.swift in Sources */,
+				D82410381E2360020005E324 /* NOCommand.swift in Sources */,
+				D82410361E235DB20005E324 /* RemoteControl.swift in Sources */,
+				D824103E1E2362390005E324 /* CDPlayer.swift in Sources */,
+				D82410421E2365450005E324 /* LightOffCommand.swift in Sources */,
+				D824103A1E2360CE0005E324 /* RemoteLoader.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		D824102E1E235D440005E324 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D824102F1E235D440005E324 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		D82410311E235D440005E324 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		D82410321E235D440005E324 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D82410241E235D440005E324 /* Build configuration list for PBXProject "CommandPattern" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D824102E1E235D440005E324 /* Debug */,
+				D824102F1E235D440005E324 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D82410301E235D440005E324 /* Build configuration list for PBXNativeTarget "CommandPattern" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D82410311E235D440005E324 /* Debug */,
+				D82410321E235D440005E324 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D82410211E235D440005E324 /* Project object */;
+}
