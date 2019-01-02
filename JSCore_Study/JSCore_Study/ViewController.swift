@@ -13,13 +13,14 @@ import JavaScriptCore
 
 class ViewController: UIViewController {
     
-    var jsScript = ""
+    private lazy var jsScript: String = {
+        guard let testJSPath = Bundle.main.path(forResource: "test", ofType: "js") else { return "" }
+        return try! String(contentsOfFile: testJSPath, encoding: .utf8)
+    }()
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        guard let testJSPath = Bundle.main.path(forResource: "test", ofType: "js") else { return }
-        jsScript = try! String(contentsOfFile: testJSPath, encoding: .utf8)
+
 
         swiftToJS()
         
@@ -46,7 +47,7 @@ class ViewController: UIViewController {
         jsContext.evaluateScript(jsScript)
 
         guard let function = jsContext.objectForKeyedSubscript("factorial") else { return }
-    
+        
         guard let result = function.call(withArguments: [2]) else { return }
 
         print("这是执行JS方法后的值",result)
