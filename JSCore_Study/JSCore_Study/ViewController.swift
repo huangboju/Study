@@ -81,7 +81,6 @@ class ViewController: UIViewController {
 
         // 将handle注入到context中，并起名字为makeNSColor，要与js中的回调名称一致
         jsContext.setObject(handle, forKeyedSubscript: "makeNSColor" as NSCopying & NSObjectProtocol)
-        jsContext.evaluateScript("makeNSColor")
 
         guard let function = jsContext.evaluateScript("colorForWord") else { return }
         print(function.call(withArguments: ["red"]))
