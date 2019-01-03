@@ -1,6 +1,0 @@
-platform:ios,'8.0'
-use_frameworks!
-
-target "SQLiteManager" do
-    pod 'SQLite.swift', '~> 0.10.1'         # https://github.com/stephencelis/SQLite.swift
-end
