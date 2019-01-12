@@ -9,6 +9,7 @@
 #include <iostream>
 #include <cmath>
 #include "MyStruct.cpp"
+#include "Clock.hpp"
 
 #include "CombinationSumII.cpp"
 
@@ -125,6 +126,27 @@ void hanoi(int n, char src, char medium, char dest) {
     }
 }
 
+void swap(int &a, int &b) {
+    int t = a;
+    a = b;
+    b = t;
+}
+
+int sumOfSquare(int a, int b) {
+    return a * a + b * b;
+}
+
+double sumOfSquare(double a, double b) {
+    return a * a + b * b;
+}
+
+int fib(int n) {
+    if (n == 1 || n == 2) {
+        return 1;
+    }
+    return fib(n - 2) + fib(n - 1);
+}
+
 int main(int argc, const char * argv[]) {
     // insert code here...
 //    int radius;
@@ -143,6 +165,23 @@ int main(int argc, const char * argv[]) {
 //    calculate();
     
     hanoi(3, 'A', 'B', 'C');
+    
+    int a = 5, b = 10;
+    swap(a, b);
+    cout << a << b << endl;
+    
+    
+    cout << sumOfSquare(5, 6) << endl;
+    
+    cout << sumOfSquare(5.2, 6.1) << endl;
+    
+    cout << fib(5) << endl;
+    
+    Clock c(0, 0, 0);
+    
+    Clock c2;
+    
+    c.showTime();
     
     return 0;
 }

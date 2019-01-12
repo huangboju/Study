@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BE463A3721AE7D5E003B313F /* Clock.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BE463A3521AE7D5E003B313F /* Clock.cpp */; };
 		F7154B1721A93C6A00B0ED9D /* MyStruct.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F7154B1521A93C6A00B0ED9D /* MyStruct.cpp */; };
 		F7154B3621ACF13800B0ED9D /* CombinationSumII.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F7154B3421ACF13800B0ED9D /* CombinationSumII.cpp */; };
 		F71C7C7A21A00C6C008877BF /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F71C7C7921A00C6C008877BF /* main.cpp */; };
@@ -25,6 +26,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		BE463A3521AE7D5E003B313F /* Clock.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Clock.cpp; sourceTree = "<group>"; };
+		BE463A3621AE7D5E003B313F /* Clock.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Clock.hpp; sourceTree = "<group>"; };
 		F7154B1521A93C6A00B0ED9D /* MyStruct.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = MyStruct.cpp; sourceTree = "<group>"; };
 		F7154B1621A93C6A00B0ED9D /* MyStruct.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = MyStruct.hpp; sourceTree = "<group>"; };
 		F7154B3421ACF13800B0ED9D /* CombinationSumII.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = CombinationSumII.cpp; sourceTree = "<group>"; };
@@ -68,6 +71,8 @@
 				F7154B1621A93C6A00B0ED9D /* MyStruct.hpp */,
 				F7154B3421ACF13800B0ED9D /* CombinationSumII.cpp */,
 				F7154B3521ACF13800B0ED9D /* CombinationSumII.hpp */,
+				BE463A3521AE7D5E003B313F /* Clock.cpp */,
+				BE463A3621AE7D5E003B313F /* Clock.hpp */,
 			);
 			path = StudyC;
 			sourceTree = "<group>";
@@ -130,6 +135,7 @@
 			files = (
 				F7154B1721A93C6A00B0ED9D /* MyStruct.cpp in Sources */,
 				F7154B3621ACF13800B0ED9D /* CombinationSumII.cpp in Sources */,
+				BE463A3721AE7D5E003B313F /* Clock.cpp in Sources */,
 				F71C7C7A21A00C6C008877BF /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
