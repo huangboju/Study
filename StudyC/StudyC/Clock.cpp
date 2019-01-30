@@ -31,7 +31,7 @@ Clock::~Clock() {
 //    second = c.second;
 //}
 
-void Clock::showTime() {
+inline void Clock::showTime() {
     cout << hour << ":" << minute << ":" << second << endl;
 }
 

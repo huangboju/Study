@@ -180,7 +180,7 @@ int main(int argc, const char * argv[]) {
     Clock c(0, 0, 0);
     
     Clock c2;
-    
+    c2.setTime()
     c.showTime();
     
     return 0;

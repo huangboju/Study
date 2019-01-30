@@ -71,8 +71,8 @@
 				F7154B1621A93C6A00B0ED9D /* MyStruct.hpp */,
 				F7154B3421ACF13800B0ED9D /* CombinationSumII.cpp */,
 				F7154B3521ACF13800B0ED9D /* CombinationSumII.hpp */,
-				BE463A3521AE7D5E003B313F /* Clock.cpp */,
 				BE463A3621AE7D5E003B313F /* Clock.hpp */,
+				BE463A3521AE7D5E003B313F /* Clock.cpp */,
 			);
 			path = StudyC;
 			sourceTree = "<group>";
