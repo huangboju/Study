@@ -35,7 +35,7 @@ class IntroductionViewController: UIViewController {
     
     override func viewDidLayoutSubviews() {
         originalProfileCenter = petProfileView.center
-        view.bringSubview(toFront: petProfileView)
+        view.bringSubviewToFront(petProfileView)
     }
     
     @IBAction func rejectButtonWasTapperd(_ sender: UIButton) {
@@ -84,7 +84,7 @@ class IntroductionViewController: UIViewController {
         animation.toValue = CGPoint(x: -(petProfileView.bounds.size.width), y: petProfileView.center.y)
         animation.fromValue = petProfileView.center
         animation.duration = 0.25
-        animation.timingFunction =  CAMediaTimingFunction(name: kCAMediaTimingFunctionEaseOut)
+        animation.timingFunction =  CAMediaTimingFunction(name: CAMediaTimingFunctionName.easeOut)
         animation.isRemovedOnCompletion = true
         
         CATransaction.begin()
@@ -102,7 +102,7 @@ class IntroductionViewController: UIViewController {
         animation.toValue = CGPoint(x: UIScreen.main.bounds.size.width + petProfileView.bounds.size.width, y: petProfileView.center.y)
         animation.fromValue = petProfileView.center
         animation.duration = 0.25
-        animation.timingFunction =  CAMediaTimingFunction(name: kCAMediaTimingFunctionEaseOut)
+        animation.timingFunction =  CAMediaTimingFunction(name: CAMediaTimingFunctionName.easeOut)
         animation.isRemovedOnCompletion = true
         
         animation.delegate = self
@@ -110,7 +110,7 @@ class IntroductionViewController: UIViewController {
         CATransaction.begin()
         CATransaction.setCompletionBlock { () -> Void in
             if let image = self.petProfilePictureImageView.image {
-                self.currentPet.imageData = UIImageJPEGRepresentation(image, 0)!
+                self.currentPet.imageData = image.jpegData(compressionQuality: 0)!
             }
             self.currentPet.id = MatchedPetsManager.sharedManager.matchedPets.count + 1
             MatchedPetsManager.sharedManager.addPet(pet: self.currentPet)
@@ -136,7 +136,7 @@ class IntroductionViewController: UIViewController {
         animation.toValue = originalProfileCenter
         animation.fromValue = petProfileView.center
         animation.duration = 0.25
-        animation.timingFunction =  CAMediaTimingFunction(name: kCAMediaTimingFunctionEaseOut)
+        animation.timingFunction =  CAMediaTimingFunction(name: CAMediaTimingFunctionName.easeOut)
         animation.isRemovedOnCompletion = true
         
         petProfileView.layer.add(animation, forKey: "position")
