@@ -19,9 +19,9 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         view.backgroundColor = UIColor.yellow
 
-        addChildViewController(firstController)
-        addChildViewController(secondController)
-        addChildViewController(thirdController)
+        addChild(firstController)
+        addChild(secondController)
+        addChild(thirdController)
 
         let contentView = UIView(frame: CGRect(x: 0, y: 200, width: view.frame.width, height: 300))
         contentView.backgroundColor = UIColor.brown
@@ -32,14 +32,14 @@ class ViewController: UIViewController {
         for i in 0 ..< 3 {
             let button = UIButton(frame: CGRect(x: 0, y: 64 + 54 * CGFloat(i), width: view.frame.width, height: 44))
             button.backgroundColor = UIColor.cyan
-            button.setTitle(i.description, for: UIControlState())
+            button.setTitle(i.description, for: UIControl.State())
             button.tag = 1000 + i
             button.addTarget(self, action: #selector(action), for: .touchUpInside)
             view.addSubview(button)
         }
     }
 
-    func action(_ sender: UIButton) {
+    @objc func action(_ sender: UIButton) {
         let condition1 = currentViewController == firstController && sender.tag == 1000
         let condition2 = currentViewController == secondController && sender.tag == 1001
         let condition3 = currentViewController == thirdController && sender.tag == 1002
