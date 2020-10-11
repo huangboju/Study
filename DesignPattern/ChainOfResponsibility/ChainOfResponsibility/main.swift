@@ -37,6 +37,7 @@ class Handler {
         return Level(level: 0)
     }
 
+    @discardableResult
     public final func handleRequest(_ request: Request) -> Response? {
         var response: Response?
 
