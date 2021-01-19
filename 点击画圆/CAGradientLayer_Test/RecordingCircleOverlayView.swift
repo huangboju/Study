@@ -21,7 +21,7 @@ class RecordingCircleOverlayView: UIView, CAAnimationDelegate {
         let arcCenter = CGPoint(x: bounds.midX, y: bounds.midY)
         let radius = bounds.midX - insets.top - insets.bottom
 
-        circlePath = UIBezierPath(arcCenter: arcCenter, radius: radius, startAngle: CGFloat(M_PI), endAngle: -CGFloat(M_PI), clockwise: false)
+        circlePath = UIBezierPath(arcCenter: arcCenter, radius: radius, startAngle: CGFloat.pi, endAngle: -CGFloat.pi, clockwise: false)
 
         addBackgroundLayer()
     }

@@ -12,7 +12,7 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        let recordingCircleOverlayView = RecordingCircleOverlayView(frame: view.bounds, strokeWidth: 7, insets: UIEdgeInsetsMake(10, 10, 0, 0))
+        let recordingCircleOverlayView = RecordingCircleOverlayView(frame: view.bounds, strokeWidth: 7, insets: UIEdgeInsets(top: 10, left: 10, bottom: 0, right: 0))
 
         recordingCircleOverlayView.autoresizingMask = [.flexibleHeight, .flexibleWidth]
         recordingCircleOverlayView.duration = 10
