@@ -150,6 +150,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 			);
 			mainGroup = 535BFB61152CC243005221E6;
@@ -266,7 +267,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = StateRestoreChildViews/Prefix.pch;
 				INFOPLIST_FILE = StateRestoreChildViews/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				PRODUCT_NAME = StRstChldVws;
 				WRAPPER_EXTENSION = app;
 			};
@@ -278,7 +279,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = StateRestoreChildViews/Prefix.pch;
 				INFOPLIST_FILE = StateRestoreChildViews/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				PRODUCT_NAME = StRstChldVws;
 				WRAPPER_EXTENSION = app;
 			};
