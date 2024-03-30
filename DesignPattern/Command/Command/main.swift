@@ -16,12 +16,12 @@ protocol Command {
 protocol Device {
     func on()
     func off()
-    var name: String! { set get }
+    var name: String { get }
 }
 
 // MARK: - Devices
 class Light: Device {
-    var name: String!
+    let name: String
 
     init(name: String = "") {
         self.name = name
@@ -37,7 +37,7 @@ class Light: Device {
 }
 
 class Stereo: Device {
-    var name: String!
+    let name: String
 
     init(name: String = "") {
         self.name = name
@@ -73,7 +73,7 @@ enum Gear: Int {
 }
 
 class CeilingFan: Device {
-    var name: String!
+    let name: String
 
     var speed: Gear = .off
     var count = 3
@@ -104,7 +104,7 @@ class CeilingFan: Device {
 }
 
 class GarageDoor: Device {
-    var name: String!
+    let name: String
 
     init(name: String = "") {
         self.name = name
@@ -122,7 +122,7 @@ class GarageDoor: Device {
 // MARK: - Commands
 class LightOnCommand: Command {
 
-    var light: Light!
+    let light: Light
 
     init(light: Light) {
         self.light = light
@@ -138,7 +138,7 @@ class LightOnCommand: Command {
 }
 
 class LightOffCommand: Command {
-    var light: Light!
+    let light: Light
 
     init(light: Light) {
         self.light = light
@@ -154,7 +154,7 @@ class LightOffCommand: Command {
 }
 
 class StereoOnWithCDCommand: Command {
-    var stereo: Stereo!
+    let stereo: Stereo
 
     init(stereo: Stereo) {
         self.stereo = stereo
@@ -171,7 +171,7 @@ class StereoOnWithCDCommand: Command {
 }
 
 class StereoOffWithCDCommand: Command {
-    var stereo: Stereo!
+    let stereo: Stereo
 
     init(stereo: Stereo) {
         self.stereo = stereo
@@ -188,7 +188,7 @@ class StereoOffWithCDCommand: Command {
 }
 
 class CeilingFanOnCommand: Command {
-    var ceilingFan: CeilingFan!
+    let ceilingFan: CeilingFan
 
     init(ceilingFan: CeilingFan) {
         self.ceilingFan = ceilingFan
@@ -203,7 +203,7 @@ class CeilingFanOnCommand: Command {
 }
 
 class CeilingFanHighCommand: Command {
-    var ceilingFan: CeilingFan!
+    let ceilingFan: CeilingFan
 
     init(ceilingFan: CeilingFan) {
         self.ceilingFan = ceilingFan
@@ -219,7 +219,7 @@ class CeilingFanHighCommand: Command {
 }
 
 class CeilingFanOffCommand: Command {
-    var ceilingFan: CeilingFan!
+    let ceilingFan: CeilingFan
 
     init(ceilingFan: CeilingFan) {
         self.ceilingFan = ceilingFan
@@ -234,7 +234,7 @@ class CeilingFanOffCommand: Command {
 }
 
 class GarageDoorUpCommand: Command {
-    var garageDoor: GarageDoor!
+    let garageDoor: GarageDoor
 
     init(garageDoor: GarageDoor) {
         self.garageDoor = garageDoor
@@ -249,7 +249,7 @@ class GarageDoorUpCommand: Command {
 }
 
 class GarageDoorDownCommand: Command {
-    var garageDoor: GarageDoor!
+    let garageDoor: GarageDoor
 
     init(garageDoor: GarageDoor) {
         self.garageDoor = garageDoor
